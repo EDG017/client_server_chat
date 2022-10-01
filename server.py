@@ -2,7 +2,7 @@ import socket
 import sys
 
 # This checks for the number of arguments. Should be two, the file name and port number.
-# Less than two causes an error message and eh program to close
+# Less than two causes an error message and the program to close
 # I used https://www.geeksforgeeks.org/socket-programming-python/ to help me create this code.
 if len(sys.argv) != 2:
     print("Filename or port incorrect. Please enter input as 'filename.py' 'port number'")
